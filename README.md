@@ -18,31 +18,31 @@ In the above example, we have defined a structure called person, which has three
 
 Code for Student Details 
 
-#include <stdio.h>
+  #include <stdio.h>
 
-struct student {
-    char name[50];
-    int roll_no;
-    int marks;
-};
+  struct student {
+      char name[50];
+      int roll_no;
+      int marks;
+  };
 
-int main() {
-    struct student s;
+  int main() {
+      struct student s;
 
-    printf("Enter name: ");
-    scanf("%s", s.name);
+      printf("Enter name: ");
+      scanf("%s", s.name);
 
-    printf("Enter roll number: ");
-    scanf("%d", &s.roll_no);
+      printf("Enter roll number: ");
+      scanf("%d", &s.roll_no);
 
-    printf("Enter marks: ");
-    scanf("%d", &s.marks);
+      printf("Enter marks: ");
+      scanf("%d", &s.marks);
 
-    printf("\nStudent details:\n");
-    printf("Name: %s\n", s.name);
-    printf("Roll number: %d\n", s.roll_no);
-    printf("Marks: %d\n", s.marks);
+      printf("\nStudent details:\n");
+      printf("Name: %s\n", s.name);
+      printf("Roll number: %d\n", s.roll_no);
+      printf("Marks: %d\n", s.marks);
 
-    return 0;
-}
+      return 0;
+  }
 
